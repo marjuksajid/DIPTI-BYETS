@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.body {
+    background-image: url("../images/raining\ world\ travel\ GIF.gif");
+    background-size:cover ;
+    background-repeat: no-repeat;
+}
+.container {
+
+}
+
+.main {
+    width: 300px;
+    height: 200px;
+    background-color: green;
+    display: inline-block;
+    margin: auto;
+}
+
+.pain {
+    width: 220px;
+    height: 140px;
+    background: orange;
+    margin: auto;
+    clip-path: polygon(51% 25%, 87% 49%, 54% 77%, 18% 51%);
+}
+
+.nil {
+    width: 50px;
+    height: 50px;
+    background: blue;
+    clip-path: circle(11.8% at 50% 50%);
+}
